@@ -1,0 +1,111 @@
+/* Chat Box Container */
+.llm-chat-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 280px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Chat Box Header */
+  .llm-chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: grab;
+  }
+  
+  /* Chat Box Body */
+  .llm-chat-body {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Chat Input Container */
+  .llm-chat-input-container {
+    display: flex;
+    border-top: 1px solid #ccc;
+  }
+  
+  /* Chat Input */
+  .llm-chat-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  /* Chat Send Button */
+  .llm-chat-send {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-bottom-right-radius: 10px;
+  }
+  
+  /* Chat Bubbles */
+  .chat-bubble {
+    max-width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    word-wrap: break-word;
+  }
+  
+  .user-query {
+    background-color: white;
+    align-self: flex-end;
+    border: 1px solid #ccc;
+    text-align: right;
+  }
+  
+  .llm-response {
+    background-color: #DCF8C6;
+    align-self: flex-start;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .error {
+    background-color: #F8D7DA;
+    color: #721C24;
+  }
+  
+  /* Minimize Button */
+  .llm-chat-minimize {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Chat Toggle Button */
+  #llm-chat-toggle {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
