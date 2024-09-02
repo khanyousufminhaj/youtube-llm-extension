@@ -1,6 +1,6 @@
 # Youtube Chat Extension
 
-🔗 **Live App:** Test the [Youtube Chat Extension](https://fake-news-check.streamlit.app/](https://microsoftedge.microsoft.com/addons/detail/youtube-chat-extension/ojiedgphfjkbfjalkfnhcmppgdlbdkcd))
+🔗 **Live App:** Test the [Youtube Chat Extension](https://microsoftedge.microsoft.com/addons/detail/youtube-chat-extension/ojiedgphfjkbfjalkfnhcmppgdlbdkcd)
 
 
 A Chromium-browser based extension that lets users access LLMs right from the youtube page to help user save time and effort.
